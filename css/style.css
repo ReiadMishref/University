@@ -1,0 +1,584 @@
+/* start Main Rulez */
+
+body {
+    height: 4000px;
+   
+}
+
+.container {
+    width :1000px;
+    margin: auto;
+}
+.clearfix{clear: both;}
+
+/* End Main Rulez */
+
+/*start Header */
+ 
+.header .slider {
+    background-image: url('../images/bbb.jpg'); 
+   -webkit-background-size: cover;        /* CSS3 */ 
+    -moz-background-size: cover;        /* CSS3 */
+    -o-background-size: cover;        /* CSS3 */
+    background-size: cover;        /* CSS3 */
+    height: 700px;
+}
+
+.header .navbar {
+
+    background-color:#252F31 ;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.header .navbar h2 {
+    float: left;
+}
+.header .navbar ul {
+    list-style: none;
+    padding-left:0;
+   overflow:hidden ;
+   float:right;
+}
+
+.header .navbar ul li {float: left;padding: 10px;}
+
+.header .navbar ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header .navbar ul li a:hover {
+    color:#30B576
+
+}
+
+/* End Headder */
+
+/* start features */
+
+.features {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+
+.features .feat {
+    float: left;
+    width: 33.333333%;
+    height: 200px;
+}
+
+.features .feat h2 {color: #444;}
+
+
+.features .feat p {
+    line-height: 1.3;
+    color: #888;
+    padding: 0 40px 0 0;
+}
+
+/* End features */
+
+/*start about us */
+
+.about-us {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.about-us .image {
+    float: left;
+    width: 55%;
+    
+    
+}
+
+.about-us .image img{width: 95%;}
+
+.about-us .info{
+    float: left;
+    width: 45%;
+    
+}
+
+.about-us .info h2 {
+    margin: 30px 0 0 40px;
+    color:#444;
+    }
+
+.about-us .info >p {
+    margin: 20px 0 30px 40px ;
+   
+    font-style: normal;
+}
+
+.about-us .info p {
+    
+    line-height: 1.4;
+    color: #666;
+   }   /* الطزل والعرض  */
+
+.about-us .info .colleges{
+    overflow: hidden;
+    margin: 100px 50 0 40px;
+}
+
+
+.about-us .info .colleges .content {
+    float: left;
+    width: 50%;
+    min-height: 2px;
+    overflow: hidden;
+}
+
+.about-us .info .colleges .content h3 {color:#444;}
+
+.about-us .info .colleges .content .icon{
+    float: left;
+    margin-right: 0%;      /* الايقونات فوق ولا جنبها */
+    width: 15%;
+}
+
+.about-us .info .colleges .content .icon img {
+    max-width:100% ;
+    margin: 10px 10px 0 0;
+
+}
+
+.about-us .info .colleges .content .text {
+    float: left;
+    width: 85%;
+}
+.about-us .info .colleges .content .text p {margin-top:20 ;}
+.about-us .info .colleges .content .text h3 {margin-bottom: 5px; }
+
+/*End about us */ 
+
+/* start Brief-us */
+
+.Brief-us {
+    padding-top: 20px;
+    padding-bottom: 30;
+    overflow: hidden;
+}
+
+.Brief-us .Breif,
+.Brief-us .progress {
+    width:500px;
+    float: left;
+
+}
+
+.Brief-us .Breif h2 {
+    margin: 25px 0 20px 40px;
+    color: #555;
+}
+
+.Brief-us .Breif p {
+   margin: 0 0 10px 40px;
+   line-height: 1.5;
+   color: #666;
+}
+
+.Brief-us .Breif p:last-of-type{
+    margin-top: 25px;
+}
+
+.Brief-us .Breif button {
+     width: 40%;
+     height: 50px;
+     font-size: x-large;
+     margin-left: 40px;
+     margin-top: 20px;
+     margin-bottom: 30px;
+     
+     
+}
+
+.Brief-us .container .Breif button a{
+    color: #2DCC70;
+    text-decoration: none;
+}
+
+
+
+.Brief-us .progress .technique {margin-left:90px ;}
+
+.Brief-us .progress .technique h3 {
+    color:#555
+
+}
+
+.Brief-us .progress .technique div{
+    background-color:#F2F2F2 ;
+    height:25px ;
+}
+
+.Brief-us .progress .technique div span {
+    background-color: #2DCC70;
+    height:25px ;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+
+}
+/* End Brief-us */
+
+/* start University-Rank */
+
+ .University-Rank{
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.University-Rank h2 {
+    
+    font-style: inherit;
+    color: rgb(70, 70, 70);
+    }
+.University-Rank p {
+    line-height: 1.5;
+    color: #666;
+    padding: 0 50px;
+}
+
+
+.University-Rank .container  button {
+    width: 20%;
+     height: 40px;
+    font-size: x-large;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background:none;
+    border: 3px solid #2DCC70;
+     color:#2DCC70;
+     color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.University-Rank .container button a {
+    color: #2DCC70;
+    text-decoration: none;
+}
+
+
+/* End University-Rank */
+
+/* start president */
+
+.president {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.president .Main{
+    width: 50%;
+    float: left;
+    margin-right: 5%;
+ 
+}
+
+.president .container .Main h2 {
+    margin: 10px 0 20px;
+    color: #555;
+   }
+
+
+
+.president .Main p {
+    margin: 0 0 10px 40 px;
+    line-height: 1.5;
+    color: #333;
+
+}
+
+.president p :last-of-type{
+    margin-top: 25px;
+}
+
+
+.president .exp {
+    width: 45%;
+    float: left;
+}
+
+.president  .exp  h3 {
+    margin-top: 20px;
+    color: #333;
+   }
+
+.president  .exp   p {
+    margin-top: 20px;
+    color: #666;
+   }
+ 
+.president  .exp span {
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.president .exp span {color:#666}
+
+
+
+
+
+/* End president */
+
+/* start News */
+
+.News{
+    
+    background-color:#F2F2F2 ;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.News h2 {
+    
+    font-style: inherit;
+    color: rgb(70, 70, 70);
+    }
+
+.News p {
+    line-height: 1.5;
+    color: #666;
+    padding: 0 50px;
+}
+
+.News h3  {
+    color: #222;
+}
+
+.News ul {
+    list-style:none; 
+    padding-left: 0;
+    text-align: center;
+    
+
+}
+
+.News ul li { 
+    width: 20px;
+    height: 20px;
+    border: 2px solid #2DCC70 ;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.News ul li.active,
+.News ul li:hover{
+    background-color: #2DCC70;
+   height: 20px;
+}
+
+.News .container ul li a {
+    color:#666;
+    text-decoration: none;
+}
+
+
+/* End News */
+
+/* start photo */
+
+.photo{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.photo h2{
+    color:#444;
+
+}
+
+.photo p {
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+
+
+}
+
+.photo .our-photo {
+    overflow: hidden;
+
+}
+
+.photo .our-photo > div {
+    float: left;
+    width:30.333333%;
+    margin-bottom:10px  ;
+}
+
+.photo .our-photo > div img{
+    width:92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 10px 10px 10px #CCC;
+}
+
+/*End photo */ 
+
+
+
+
+
+/* start contact me */
+
+
+.contact {
+    background-color:#252F31 ;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.contact .info{
+    width: 50%;
+    margin-right: 10%;
+    float: left;
+}
+
+.contact h2 {color:#FFF ;
+   
+}
+
+.contact p {
+    color: #6A6E71;
+    line-height: 1.5;
+    }
+
+.contact p strong {color: #D1D6DA;}
+
+
+.contact .form {
+    padding-top: 1%;
+    width: 40%;
+    float: left;
+}
+
+.contact .form label {
+    display: block;
+    color: #D1D6DA;
+    margin: 10px 0  ;
+
+}
+
+.contact .form input[type="text"]{
+    background-color:#4B5557 ;
+    color:#FFF ;
+    padding: 5px;
+    border: 0;
+    width: 80%;
+    margin-bottom:10px ;
+
+}
+
+.contact .form textarea{
+    background-color:#4B5557 ;
+    color:#FFF ;
+    padding: 5px;
+    border: 0;
+    width: 80%;
+    margin-bottom:10px ;
+    height: 200px;
+
+}
+
+.contact .form input[type="submit"] {
+    background-color:#191E22 ;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+}
+
+
+
+/* End contact me */
+
+
+
+
+
+
+
+
+
+/* start footer */
+
+.footer {
+    background-color: #191E22;
+    color:#6A6E71;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.footer span {
+    float: left;
+   
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0px 0 0;
+    float: right;
+  
+
+}
+
+.footer ul li {
+    display:inline-block;
+    size: 2px;
+}
+
+.footer ul li img {
+    width: 24px;
+    color: #555;
+}
+
+/*ENd footert */
+
+
+
+
+/* start My framework */
+
+.my-button {
+    background:none;
+    border: 3px solid #2DCC70;
+     color:#2DCC70;
+     margin-bottom: 30px;
+     width: 150px;
+     margin-top: 10px;
+     
+     
+}
+
+/*End My framework */
